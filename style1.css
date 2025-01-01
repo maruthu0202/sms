@@ -1,0 +1,212 @@
+body {
+  background-image: url(s.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.h {
+  display: flex;
+  margin-top: -8.5px;
+  margin-left: -8.5px;
+  margin-right: -8.5px;
+}
+.s {
+  display: flex;
+  justify-content: center;
+  width: 250px;
+  height: 25px;
+  border: 1px solid rgb(59, 166, 209);
+  background-color: rgb(59, 166, 209);
+  border-radius: 2px;
+}
+.s a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+.al {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: 25px;
+  border: 1px solid rgb(59, 166, 209);
+  background-color: rgb(59, 166, 209);
+  border-radius: 2px;
+}
+.al a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+.a {
+  display: flex;
+  justify-content: center;
+  width: 250px;
+  height: 25px;
+  border: 1px solid rgb(59, 166, 209);
+  margin-left: auto;
+  background-color: rgb(46, 149, 189);
+  border-radius: 2px;
+}
+
+.a a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+.n {
+  display: flex;
+  justify-content: center;
+  width: 250px;
+  height: 25px;
+  border: 1px solid rgb(59, 166, 209);
+  background-color: rgb(59, 166, 209);
+  border-radius: 2px;
+}
+.n a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+.t {
+  display: flex;
+  justify-content: center;
+  width: 250px;
+  height: 25px;
+  border: 1px solid rgb(59, 166, 209);
+  background-color: rgb(46, 149, 189);
+  border-radius: 2px;
+}
+.t a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+h2 {
+  color: rgb(55, 161, 248);
+}
+hr {
+  padding: 2px;
+  background-color: rgb(24, 128, 246);
+}
+.m {
+  display: flex;
+  justify-content: center;
+}
+.m .mt {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(7, 8, 8);
+
+  font-size: 27px;
+  font-weight: bold;
+}
+@keyframes moveText {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(15%);
+  }
+}
+.top {
+  display: flex;
+  justify-content: center;
+  width: 900px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 45px;
+}
+.t1 {
+  display: flex;
+  border: 2px solid black;
+  background-color: azure;
+  background-image: url(person.jfif);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.t1 .t4 {
+  display: flex;
+  padding-top: 10.5rem;
+  padding-left: 30px;
+  color: rgb(3, 213, 255);
+}
+.t2 {
+  display: flex;
+  border: 2px solid black;
+  background-color: azure;
+  background-image: url(person.jfif);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: auto;
+}
+.t2 .t5 {
+  display: flex;
+  padding-top: 10.5rem;
+  padding-left: 30px;
+  color: rgb(3, 213, 255);
+}
+.t3 {
+  display: flex;
+  border: 2px solid black;
+  background-color: azure;
+  background-image: url(person.jfif);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: auto;
+}
+.t3 .t6 {
+  display: flex;
+  padding-top: 10.5rem;
+  padding-left: 30px;
+  color: rgb(3, 213, 255);
+}
+.top > div {
+  margin: 20px;
+  margin-right: 7.5rem;
+  padding: 15px;
+  background-color: rgb(236, 230, 230);
+}
+.top > .t1 {
+  margin-top: 11rem;
+}
+.top > .t3 {
+  margin-top: 11rem;
+}
+.new {
+  border-radius: 2px;
+  display: flex;
+  background-size: cover;
+  background-color: rgb(7, 238, 255);
+}
+.new .new1 {
+  font-size: 20px;
+  padding: 10px;
+  border: 1px solid rgb(77, 161, 239);
+  background-color: rgb(77, 161, 239);
+  border-radius: 2px;
+  padding-top: 20px;
+}
+.new2 {
+  display: flex;
+  animation: an 7s linear forwards infinite;
+}
+@keyframes an {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(15%);
+  }
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(252, 15, 252);
+}
+footer a {
+  text-decoration: none;
+  color: rgb(224, 240, 0);
+}

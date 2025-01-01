@@ -1,0 +1,66 @@
+body {
+  display: block;
+  justify-content: center;
+  background-image: url(b.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  justify-self: center;
+  color: rgb(35, 178, 218);
+  text-shadow: 3px 0px black;
+}
+hr {
+  height: 2px;
+  background-color: rgb(0, 145, 255);
+  border-bottom-width: 10px;
+}
+p {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+fieldset {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  justify-content: center;
+  width: 230px;
+  height: 300px;
+  box-shadow: 0 8px 32px 0 black;
+
+  border: none;
+  border-radius: 30px;
+}
+form {
+  margin-top: 3rem;
+}
+label {
+  width: 220px;
+  padding: 3px;
+  margin: 0.5rem;
+  margin-top: 10px;
+  border-radius: 3px;
+}
+button {
+  width: 100px;
+  margin-top: 2.5rem;
+  font-size: 16px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 7px;
+  border: 0.5px solid rgb(0, 140, 255);
+
+  background-color: transparent;
+}
+input {
+  width: 220px;
+  padding: 3px;
+  margin: 0.5rem;
+  margin-top: 10px;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  background-color: transparent;
+}

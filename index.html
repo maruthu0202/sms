@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>SMS</title>
+  </head>
+  <body>
+    <div></div>
+    <div class="h">
+      <div class="i">
+        <img src="mt.png" width="40px" height="40px" />
+      </div>
+      <div><h1>MT School</h1></div>
+      <div>
+        <nav class="n">
+          <a href="#">About</a>
+          <a href="register.html">Register</a>
+          <a href="index.html">Login</a>
+        </nav>
+      </div>
+    </div>
+
+    <fieldset class="l">
+      <form id="loginForm">
+        <label for="u">Username</label>
+        <input type="text" id="u" name="u" />
+        <label for="p">Password</label>
+        <input type="password" id="p" name="p" />
+        <button type="submit" onclick="fun()">login</button>
+      </form>
+      <script>
+        function fun(event) {
+          event.preventDefault();
+          const n = document.getElementById("u").value;
+          const p = document.getElementById("p").value;
+          if (n === "mgm" && p === "mgm") {
+            window.location.href = "home.html";
+          } else if (n === "" && p === "") {
+            alert("name and password must be fill out");
+          } else {
+            alert("wrong details");
+          }
+        }
+        document.getElementById("loginForm").addEventListener("submit", fun);
+      </script>
+    </fieldset>
+  </body>
+</html>

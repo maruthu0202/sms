@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="s1style.css" />
+    <title>SL</title>
+  </head>
+  <body>
+    <h1>Staff Login</h1>
+
+    <fieldset>
+      <p>MT</p>
+
+      <form id="loginForm">
+        <label for="u">Username</label>
+        <input type="text" id="u" required />
+        <label for="p">Password</label>
+        <input type="password" id="p" required />
+        <button>Login</button>
+      </form>
+    </fieldset>
+    <script>
+      function fun(event) {
+        event.preventDefault();
+        const n = document.getElementById("u").value;
+        const p = document.getElementById("p").value;
+        if (n === "mgm" && p === "mgm") {
+          window.location.href = "staff.html";
+        } else if (n === "" && p === "") {
+          alert("name and password must be fill out");
+        } else {
+          alert("wrong details");
+        }
+      }
+      document.getElementById("loginForm").addEventListener("submit", fun);
+    </script>
+  </body>
+</html>
