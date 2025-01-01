@@ -1,26 +1,110 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <link rel="stylesheet" href="s2style.css" />
-    <title>S</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Staff Portal</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #004080;
+        color: white;
+        padding: 15px;
+        text-align: center;
+      }
+      nav {
+        background-color: #333;
+        overflow: hidden;
+      }
+      nav a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      nav a:hover {
+        background-color: #575757;
+      }
+      section {
+        padding: 20px;
+      }
+      .card {
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 15px;
+        margin: 10px 0;
+        background-color: #f9f9f9;
+      }
+      footer {
+        text-align: center;
+        padding: 10px;
+        background-color: #333;
+        color: white;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+      }
+    </style>
   </head>
   <body>
-    <div class="h">
-      <div class="e">
-        <a href="#">Elearning</a>
+    <header>
+      <h1>Staff Portal</h1>
+    </header>
+    <nav>
+      <a href="#staff-details">Staff Details</a>
+      <a href="#schedule">Class Schedule</a>
+      <a href="#subjects">Subjects</a>
+      <a href="#leave-attendance">Leave/Attendance</a>
+      <a href="#announcements">Announcements</a>
+    </nav>
+    <section id="staff-details">
+      <h2>Staff Details</h2>
+      <div class="card">
+        <p><strong>Name:</strong> Jane Smith</p>
+        <p><strong>Staff ID:</strong> T102</p>
+        <p><strong>Department:</strong> Science</p>
+        <p><strong>Role:</strong> Physics Teacher</p>
+        <p><strong>Contact:</strong> +123456789</p>
       </div>
-      <div class="r">
-        <a href="#">Result</a>
+    </section>
+    <section id="schedule">
+      <h2>Class Schedule</h2>
+      <div class="card">
+        <p><strong>Monday:</strong> 9:00 AM - 10:30 AM (Physics 10th Grade)</p>
+        <p>
+          <strong>Tuesday:</strong> 11:00 AM - 12:30 PM (Physics 12th Grade)
+        </p>
+        <!-- Add more classes -->
       </div>
-    </div>
-    <div class="a">
-      <div class="d">
-        <p>Rohan K</p>
-        <p>2127230801056</p>
+    </section>
+    <section id="subjects">
+      <h2>Subjects</h2>
+      <div class="card">
+        <p>Physics (10th Grade)</p>
+        <p>Physics (12th Grade)</p>
       </div>
-      <div class="i">
-        <img src="person.jfif" width="150px" height="200px" />
+    </section>
+    <section id="leave-attendance">
+      <h2>Leave/Attendance</h2>
+      <div class="card">
+        <p><strong>Pending Leave Applications:</strong> None</p>
+        <p><strong>Attendance This Month:</strong> 95%</p>
       </div>
-    </div>
+    </section>
+    <section id="announcements">
+      <h2>Announcements</h2>
+      <div class="card">
+        <p>No new announcements.</p>
+      </div>
+    </section>
+    <footer>
+      <p>&copy; 2025 School Management System</p>
+    </footer>
   </body>
 </html>
